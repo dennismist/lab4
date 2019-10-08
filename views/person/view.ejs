@@ -1,0 +1,7 @@
+<!--view.ejs-->
+
+<%= person.name %>: <%= person.age %>
+
+<form action="/person/delete/<%= person.id %>" method="POST">
+<button class = "btn btn-danger" type="submit" >Delete</button>
+</form>
